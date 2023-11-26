@@ -14,7 +14,7 @@ public class hw6 {
         for (int i = 0; i < 10; i++) {
             mySet.add(new Random().nextInt(20));
             }
-        System.out.println(mySet.getMySet(7)); // есть ли эл-т со значением 7
+        System.out.println("Есть ли эл-т со значением 7? " + mySet.getMySet(7)); // есть ли эл-т со значением 7
         System.out.println(Arrays.toString(mySet.toArray())); // вернуть в виде строки
         Iterator<Integer> iter = mySet.iterator();
 
@@ -22,7 +22,7 @@ public class hw6 {
             System.out.print(iter.next() + ", ");
             }
         System.out.println();
-        System.out.println(mySet.getItem(3)); // ыернуть эл-т под третьим индексом
+        System.out.println("Врнуть эл-т под 3 индексом - " + mySet.getItem(3)); // ыернуть эл-т под третьим индексом
         }
     }
     class mySet {
